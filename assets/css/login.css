@@ -36,14 +36,19 @@ form>button{
   }
   /* FOOTER */
 footer{
-    padding-top: 50px;
-    height:560px;
-    width:100% ;
     background-color: #232424;
-    margin-top: 14px;
     color: white;
     display: flex;
     justify-content: space-around;
+    margin:0px;
+    padding:10px;
+    min-width:100%;
+    max-width:100%;
+    height:auto;
+    position: fixed;
+    overflow: hidden;
+    display: block;
+    bottom: 0;
 }
 .link{
     display: flex;
